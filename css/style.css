@@ -2072,11 +2072,11 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff; }
+  background-color: #d1d6e4 ;
+  border-color: #d1d6e4 ; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
+    background-color: #d1d6e4 ;
     border-color: #0062cc; }
   .btn-primary:focus, .btn-primary.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
@@ -8229,12 +8229,12 @@ textarea.form-control {
       font-weight: 500;
       color: #000; }
     .dbox p a {
-      color: #46b5d1; }
+      color: black; }
   .dbox .icon {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #46b5d1;
+    background: #adb1ba;
     margin: 0 auto;
     margin-bottom: 20px; }
     .dbox .icon span {
@@ -8266,12 +8266,12 @@ textarea.form-control {
   .btn:hover, .btn:active, .btn:focus {
     outline: none !important; }
   .btn.btn-primary {
-    background: #46b5d1 !important;
-    border-color: #46b5d1 !important;
+    background: #adb1ba !important;
+    border-color: #adb1ba !important;
     color: #fff; }
     .btn.btn-primary:hover, .btn.btn-primary:focus {
-      border-color: #2d9bb7 !important;
-      background: #2d9bb7 !important; }
+      border-color: #d1d6e4 !important;
+      background: #d1d6e4 !important; }
 
 .contactForm .label {
   color: #000;
