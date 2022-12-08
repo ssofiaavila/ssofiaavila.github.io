@@ -1,0 +1,15 @@
+body{
+    background-color: #e9ecf5;
+}
+
+/*HEADER*/
+.navbar{
+    background-color: #d1d6e4!important;
+
+}
+
+.nombre, .nav-link{
+    color: black!important;
+}
+
+
