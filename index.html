@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <title> Sofia Avila </title>
 </head>
@@ -23,16 +24,16 @@
                 <img src="assets/logo.png">
                 <ul>
                     <li> <a href="#about">Sobre mí</a> </li>
-                    <li> <a href="#myCv">Mi cv</a> </li>
+                    <li> <a href="#cv">Educación</a> </li>
                     <li> <a href="#contact">Contacto</a> </li>
                 </ul>
             </div>
         </nav>
         <div id="showcase">
             <div class="container">
-                <h1 class="display-1"> Bienvenidos </h1>
+                <h1 class="display-1"> Sofia Avila </h1>
                 <p class="large"> Estudiante de informática</p>
-                <a href="#myCv" class="btn btn-outline"> Mi cv</a>
+
             </div>
         </div>
     </header>
@@ -40,39 +41,83 @@
     <section id="about">
         <div class="container">
             <div class="about-row">
-            <div class="about-row-image">
-                <img src="/assets/profilePhoto.png" alt="hashsa" >
-            </div>
-            <div class="about-row-text">
-                <h4> Soy Sofia Avila </h4>
-                <p> Actualmente me encuentro en segundo año
-                    de las carreras licenciatura en sistemas y analista programador
-                    universitario en la facultad de informática de la Universidad Nacional 
-                    de La Plata
-                </p>
-            </div>
-        </div>
+                <div class="about-row-image">
+                    <img src="/assets/profilePhoto.png" alt="Logo">
+                </div>
+                <div class="about-row-text">
+                    <h2> Bienvenidos </h2>
+                    <p> Actualmente me encuentro en segundo año
+                        de las carreras licenciatura en sistemas y analista programador
+                        universitario en la facultad de informática de la Universidad Nacional
+                        de La Plata
+                    </p>
 
-        </div>        
+                </div>
+            </div>
+
+        </div>
     </section>
 
     <section id="cv">
         <div class="container">
-            <div class="cv-row">
-                <div class="cv-row-img">
-                    <img src="http://place">
-                </div>
-                <div class="cv-row-img">
-                    <img src="http://place">
-                </div>
-                <div class="cv-row-img">
-                    <img src="http://place">
-                </div>
-            </div>
+            <h2> Educación </h2>
         </div>
+        <div class="container">
+            <div class="cv-row">
+                <ul>
+                    <li> <h5> Analista programador universitario</h5>
+                        <p> Universidad Nacional de La Plata</p>
+                        <p> 2020- Actualidad</p>
+                     </li>
+                </ul>
+                <ul>
+                    <li> <h5> Licenciatura en sistemas</h5>
+                        <p> Universidad Nacional de La Plata </p>
+                        <p> 2020- Actualidad</p>
+                     </li>
+                </ul>
+                <ul>
+                    <li> <h5> Capacitación superior en inglés</h5>
+                        <p> Instituto Argentino de Cultura Inglesa (IACI) </p>
+                        <p> 2009- 2019</p>
+                     </li>
+                </ul>
+            </div>
+            
+                <a href="#myCv" class="btn btn-outline"> Descargar CV</a>   
+                        
+        </div>
+
     </section>
 
     <section id="contact">
+        <div class="container">
+            <h2> Contacto </h2>
+        </div>
+
+        <div class="container">
+            <div class="social-buttons">
+                <a href="https://github.com/ssofiaavila" class="social-button social-button--github" aria-label="Github">
+                    <i class="fab fa-github fa-6x" style="color:#7c7c7c;"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sofia-avila-867118200/" class="social-button social-button--linkedin" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in fa-6x"style="color:#7c7c7c;"></i>
+                </a>
+                <a href="mailto:avilasofia176@gmail.com" class="social-button social-button--email" aria-label="Email">
+                    <i class="fa-regular fa-envelope fa-6x"style="color:#7c7c7c;"></i>
+                </a>
+                <a href="https://www.facebook.com/xavilasofia/" class="social-button social-button--email" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook fa-6x"style="color:#7c7c7c;"></i>
+                </a>
+
+                
+
+
+
+
+            </div>
+        </div>
+
         <div class="container">
             <form action="">
                 <div class="form-group form-flex">
@@ -93,12 +138,16 @@
             </form>
         </div>
     </section>
-    
+
     <footer id="mainfooter">
-        <h6> Sofia Agostina Avila | 2022 </h6>
-     </footer>
+        <p> Sofia Agostina Avila | 2022 </p>
+    </footer>
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 
