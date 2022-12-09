@@ -48,9 +48,9 @@ h6 {
 }
 
 p {
-    font-size: 1vw;
-    margin: 10vw 0;
-    line-height: 1.7vw;
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
     color: #7c7c7c;
 }
 
@@ -62,13 +62,13 @@ a {
 
 .container {
     margin: auto;
-    max-width: 1300vw;
-    overflow: hidden;
-    padding: 0 20vw;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
 }
 
 .large {
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 .display-1 {
@@ -77,24 +77,24 @@ a {
 
 .btn {
     display: inline-block;
-    font-size: 15vw;
+    font-size: 15px;
     font-weight: 300;
-    letter-spacing: 1vw;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    padding: 15vw 45vw;
+    padding: 15px 45px;
     cursor: pointer;
     margin-top: 5em
 }
 
 .btn-outline {
     background: #fff;
-    border: 1vw solid #000;
+    border: 1px solid #000;
     color: #000;
 }
 
 .btn-outline:hover {
     background: #000;
-    border: 1vw solid #000;
+    border: 1px solid #000;
     color: #fff;
 }
 
@@ -108,21 +108,21 @@ a {
 }
 
 .form-group-name {
-    margin-right: 10vw;
+    margin-right: 10px;
 }
 
 form .form-group {
-    margin-botton: 16vw;
+    margin-botton: 16px;
 }
 
 form .form-control {
     display: block;
     width: 100%;
-    padding: 10vw 15vw;
-    font-size: 1vw;
+    padding: 10px 15px;
+    font-size: 1rem;
     line-height: 1.5;
     color: #495057;
-    border: 1vw solid #ced4da;
+    border: 1px solid #ced4da;
 }
 
 form textarea {
@@ -133,14 +133,14 @@ form textarea {
 
 
 #mainheader {
-    height: 100vw;
+    height: 100vh;
 }
 
 /* Navbar*/
 #navbar {
     overflow: auto;
-    padding-top: 20vw;
-    padding-bottom: 20vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
     max-width: 100%
 }
 
@@ -150,9 +150,9 @@ form textarea {
 
 #navbar img {
     float: left;
-    padding-top: 16vw;
-    font-size: 25vw;
-    height: 120vw;  
+    padding-top: 16px;
+    font-size: 25px;
+    height: 120px;  
     max-width: 100%
 }
 
@@ -167,7 +167,7 @@ form textarea {
 
 #navbar ul li a {
     display: block;
-    padding: 20vw;
+    padding: 20px;
     text-align: center;
 }
 
@@ -178,7 +178,7 @@ form textarea {
 /*SHOWCASE*/
 #showcase {
     text-align: center;
-    padding: 150vw 0;
+    padding: 150px 0;
 
 }
 
@@ -189,13 +189,13 @@ form textarea {
 
 #showcase .large {
     font-weight: 200;
-    margin-top: -20vw;
+    margin-top: -20px;
 }
 
 /* CV*/
 
 #cv {
-    padding: 80vw 0;
+    padding: 80px 0;
 }
 
 .cv-row {
@@ -203,7 +203,7 @@ form textarea {
 }
 
 .cv-row li {
-    padding-right: 80vw 0;
+    padding-right: 80px 0;
     list-style-type: none;
 
 
@@ -211,7 +211,7 @@ form textarea {
 
 /*ABOUT*/
 #about {
-    padding: 80vw 0;
+    padding: 80px 0;
     background: #f4f4f4;
 }
 
@@ -227,14 +227,14 @@ form textarea {
 
 .about-row-text {
     width: 50%;
-    padding-left: 50vw;
-    padding-top: 40vw;
+    padding-left: 50px;
+    padding-top: 40px;
     display: inline-block;
 }
 
 .about-row-text h4 {
     font-weight: 400;
-    padding-bottom: 15vw;
+    padding-bottom: 15px;
 }
 
 .about-row-text p {
@@ -250,11 +250,11 @@ form textarea {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8vw; 
+    gap: 8px; 
 }
 a {
     text-decoration: none;
-    padding: 1.5vw;
+    padding: 1.5em;
 }
 
 
@@ -263,7 +263,7 @@ a {
 /* Footer*/
 footer {
     background: #f4f4f4;
-    padding: 1vw;
+    padding: 1rem;
     text-align: center;
 }
 
