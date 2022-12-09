@@ -15,42 +15,42 @@ body {
 }
 
 h1 {
-    font-size: 1rem;
+    font-size: 1vw;
     width: 100%;
     word-break: break-word;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2vw;
     text-transform: uppercase;
     padding: 50px 0;
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.75vw;
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-weight: 400;
 }
 
 h5 {
-    font-size: 1.25rem;
+    font-size: 1.25vw;
     font-weight: 400;
-    padding-right: 2em;
+    padding-right: 2vw;
 }
 
 h6 {
-    font-size: 1rem;
+    font-size: 1vw;
     font-weight: 400;
 
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1vw;
     margin: 10px 0;
-    line-height: 1.7em;
+    line-height: 1.7vw;
     color: #7c7c7c;
 }
 
@@ -62,13 +62,13 @@ a {
 
 .container {
     margin: auto;
-    max-width: 1300px;
+    max-width: 1300vw;
     overflow: auto;
-    padding: 0 20px;
+    padding: 0 20vw;
 }
 
 .large {
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .display-1 {
@@ -77,24 +77,24 @@ a {
 
 .btn {
     display: inline-block;
-    font-size: 15px;
+    font-size: 15vw;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 1vw;
     text-transform: uppercase;
-    padding: 15px 45px;
+    padding: 15vw 45vw;
     cursor: pointer;
     margin-top: 5em
 }
 
 .btn-outline {
     background: #fff;
-    border: 1px solid #000;
+    border: 1vw solid #000;
     color: #000;
 }
 
 .btn-outline:hover {
     background: #000;
-    border: 1px solid #000;
+    border: 1vw solid #000;
     color: #fff;
 }
 
@@ -108,18 +108,18 @@ a {
 }
 
 .form-group-name {
-    margin-right: 10px;
+    margin-right: 10vw;
 }
 
 form .form-group {
-    margin-botton: 16px;
+    margin-botton: 16vw;
 }
 
 form .form-control {
     display: block;
     width: 100%;
     padding: 10px 15px;
-    font-size: 1rem;
+    font-size: 1vw;
     line-height: 1.5;
     color: #495057;
     border: 1px solid #ced4da;
@@ -151,7 +151,7 @@ form textarea {
 #navbar img {
     float: left;
     padding-top: 16px;
-    font-size: 25px;
+    font-size: 25vw;
     height: 120px;  
     max-width: 100%
 }
