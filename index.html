@@ -1,32 +1,103 @@
 <!DOCTYPE html>
 <html lang="eS">
+
 <head>
-    <meta charset="UTF-8">    
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link  rel="icon"   href="assets/favico.png" type="image/png" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/favico.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <title> Inicio </title>
+    <title> Sofia Avila </title>
 </head>
+
 <body>
-    <header>
-        
+    <header id="mainHeader">
+        <nav id="navbar">
+            <div class="container">
+                <img src="assets/logo.png">
+                <ul>
+                    <li> <a href="#about">Sobre mí</a> </li>
+                    <li> <a href="#myCv">Mi cv</a> </li>
+                    <li> <a href="#contact">Contacto</a> </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="showcase">
+            <div class="container">
+                <h1 class="display-1"> Bienvenidos </h1>
+                <p class="large"> Estudiante de informática</p>
+                <a href="#myCv" class="btn btn-outline"> Mi cv</a>
+            </div>
+        </div>
     </header>
 
+    <section id="about">
+        <div class="container">
+            <div class="about-row-image">
+                <img src="">
+            </div>
+            <div class="about-row-text">
+                <h4> Soy Sofia Avila </h4>
+                <p> Actualmente me encuentro en segundo años
+                    de las carreras licenciatura en sistemas y analista programador
+                    universitario en la facultad de informática de la Universidad Nacional 
+                    de La Plata
+                </p>
+            </div>
 
+        </div>        
+    </section>
 
+    <section id="cv">
+        <div class="container">
+            <div class="cv-row">
+                <div class="cv-row-img">
+                    <img src="http://place">
+                </div>
+                <div class="cv-row-img">
+                    <img src="http://place">
+                </div>
+                <div class="cv-row-img">
+                    <img src="http://place">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <form action="">
+                <div class="form-group form-flex">
+                    <div class="form-group-name">
+                        <input type="text" class="form-control" placeholder="Nombre" />
+                    </div>
+                    <div class="form-group-email">
+                        <input type="email" class="form-control" placeholder="Email" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Motivo" />
+                </div>
+                <div class="form-group">
+                    <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Mensaje"></textarea>
+                </div>
+                <button class="btn btn-outline">Enviar mensaje </button>
+            </form>
+        </div>
+    </section>
     
-    <main>    
-       
+    <footer id="mainfooter">
+        <h3 class="autores"> Sofia Avila | 2022 </h3>
+     </footer>
 
-     
-    </main>
 
-    <footer> 
-    </footer>
-
- 
 
 </body>
+
 </html>
