@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 /* MAIN STYLING */
@@ -49,7 +49,7 @@ h6 {
 
 p {
     font-size: 1vw;
-    margin: 10px 0;
+    margin: 10vw 0;
     line-height: 1.7vw;
     color: #7c7c7c;
 }
@@ -63,7 +63,7 @@ a {
 .container {
     margin: auto;
     max-width: 1300vw;
-    overflow: auto;
+    overflow: hidden;
     padding: 0 20vw;
 }
 
