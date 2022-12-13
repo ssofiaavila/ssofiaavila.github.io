@@ -220,9 +220,16 @@ form textarea {
 
 }
 
+@media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }
+  
 .about-row-image {
-    width: 50%;
-    display:contents;
+    width: 100%;
+    object-fit: cover;
+  object-position: bottom;
+}
 }
 
 .about-row-text {
