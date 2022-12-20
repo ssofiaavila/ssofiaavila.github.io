@@ -1,44 +1,39 @@
-/*=============== SHOW MENU ===============*/
-const navMenu= document.getElementById('nav-menu'),
-    navToggle= document.getElementById('nav-toggle'),
-    navClose=document.getElementById('nav-close')
-
-if (navToggle){
-    navToggle.addEventListener('click',()=>{
-        navMenu.classList.add('show-menu')
-    })
-}
-
-if (navClose){
-    navClose.addEventListener('click',()=>{
-        navMenu.classList.remove('show-menu')
-    })
-}
+/*==================== MENU SHOW Y HIDDEN ====================*/
 
 
-/*=============== REMOVE MENU MOBILE ===============*/
+/*===== MENU SHOW =====*/
+/* Validate if constant exists */
 
 
-/*=============== SWIPER PROJECTS ===============*/
+/*===== MENU HIDDEN =====*/
+/* Validate if constant exists */
 
 
-/*=============== SWIPER TESTIMONIAL ===============*/
+/*==================== REMOVE MENU MOBILE ====================*/
 
 
-/*=============== EMAIL JS ===============*/
+/*==================== ACCORDION SKILLS ====================*/
 
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+/*==================== QUALIFICATION TABS ====================*/
 
 
-/*=============== SHOW SCROLL UP ===============*/ 
+/*==================== SERVICES MODAL ====================*/
 
 
-/*=============== DARK LIGHT THEME ===============*/ 
+/*==================== PORTFOLIO SWIPER  ====================*/
 
 
-/*=============== CHANGE BACKGROUND HEADER ===============*/
+/*==================== TESTIMONIAL ====================*/
 
 
-/*=============== SCROLL REVEAL ANIMATION ===============*/
+/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
+
+/*==================== CHANGE BACKGROUND HEADER ====================*/ 
+
+
+/*==================== SHOW SCROLL UP ====================*/ 
+
+
+/*==================== DARK LIGHT THEME ====================*/ 
