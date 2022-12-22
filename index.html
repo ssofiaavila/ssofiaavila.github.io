@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatble" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>Sofia Avila</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -22,16 +22,16 @@
                     <h1> SOFIA AVILA</h1>
                     <nav id="nav" class="">
                         <ul id="links">
-                            <li> <a href="#inicio" class="seleccionado"> INICIO </a></li>
-                            <li> <a href="#sobremi"> SOBRE MI </a></li>
-                            <li> <a href="#educacion"> EDUCACIÓN </a></li>
-                            <li> <a href="#skils"> SKILLS </a></li>
-                            <li> <a href="#contacto"> CONTACTO </a></li>
+                            <li> <a href="#inicio" class="seleccionado" onclick="seleccionar(this)"> INICIO </a></li>
+                            <li> <a href="#sobremi" onclick="seleccionar(this)"> SOBRE MI </a></li>
+                            <li> <a href="#educacion" onclick="seleccionar(this)"> EDUCACIÓN </a></li>
+                            <li> <a href="#skills" onclick="seleccionar(this)"> SKILLS </a></li>
+                            <li> <a href="#contacto" onclick="seleccionar(this)"> CONTACTO </a></li>
                         </ul>
                     </nav>
 
                     <!-- ICONOS MENU RESPONSIVE-->
-                    <div id="icono-nav">
+                    <div id="icono-nav" onclick="responsiveMenu()">
                         <i class="fa-solid fa-bars"></i>
                     </div>
 
@@ -184,14 +184,16 @@
     </section>
 
     <!-- FOOTER-->
-
-
-
-
-
-
-
-
+    <footer>
+        <p> Todos los derechos reservados- 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+            <a href="#"><i class="fa-brands fa-spotify"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
 
 </body>
 
