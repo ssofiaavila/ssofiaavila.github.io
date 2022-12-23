@@ -83,6 +83,11 @@ html {
     align-items: center;
     justify-content: center;
     background-color: #f3f3f3;
+    background: linear-gradient(#d3d3d3, rgba(207, 207, 207, 0.8)), url("/assets/sea.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
     
 }
@@ -92,8 +97,7 @@ html {
     font-size: 55px;
     margin-bottom: 25px;
     text-align: center;
-    letter-spacing: 15px;
-    
+    letter-spacing: 15px;   
 
 }
 
@@ -138,7 +142,7 @@ html {
     max-width: 1100px;
     margin: auto;
     padding: 100px 15px;
-    color: #111135;
+    color: #3a3b3b;
     display: flex;
 }
 
@@ -158,9 +162,10 @@ html {
 #sobremi .sobremi .titulo-seccion {
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #3a3b3b;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
+   
 }
 
 #sobremi .sobremi h2 {
@@ -185,7 +190,7 @@ html {
 #sobremi .sobremi p {
     font-size: 14px;
     line-height: 25px;
-    color: #565656;
+    color: #3a3b3b;
     margin-bottom: 12px;
 
 }
@@ -193,10 +198,10 @@ html {
 #sobremi .sobremi a {
     display: inline-block;
     text-decoration: none;
-    color: #000;
+    color: #3a3b3b;
     border-radius: 30px;
     padding: 10px 20px;
-    border: 1px solid #000;
+    border: 1px solid #3a3b3b;
     transition: .5s;
 }
 
@@ -209,6 +214,7 @@ html {
 /* EDUCACIÓN*/
 #educacion {
     padding: 100px, 15px;
+    padding-bottom: 100px;
     text-align: center;
     background-color: #f3f3f3
 }
@@ -216,10 +222,11 @@ html {
 #educacion .titulo-seccion {
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #3a3b3b;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
     padding-top: 60px;
+    
 }
 
 #educacion .fila {
@@ -280,11 +287,7 @@ html {
 
 /* SKILLS */
 .contenedor-skills {
-    background: linear-gradient(#eb5a5acc, rgba(33, 16, 16, .8)), url("/assets/profilePhoto.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    
     padding: 100px 0;
     text-align: center;
 }
@@ -311,6 +314,7 @@ html {
 /*CONTACTO*/
 #contacto {
     padding: 100px 15px;
+    background-color: #f3f3f3;
 }
 
 #contacto .titulo-seccion {
@@ -371,7 +375,7 @@ html {
 
 /*FOOTER*/
 footer {
-    background-color: #f3f3f3;
+    background-color: #d8d3cd;
     color: #3a3b3b;
     text-align: center;
     padding: 30px 0;
