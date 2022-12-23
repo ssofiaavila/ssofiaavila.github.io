@@ -12,14 +12,14 @@ html {
 }
 
 #inicio {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(/assets/profilePhoto.png);
+    background: linear-gradient(#f3f3f3, rgba(209, 209, 209, 0.7));
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
 
 #inicio .contenido header {
-    background-color: rgba(0, 0, 0, .8);
+    background-color:#d8d3cd;
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -37,7 +37,7 @@ html {
 
 #inicio .contenido header .contenido-header h1 {
     text-align: center;
-    color: brown;
+    color: #3a3b3b;
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -48,66 +48,58 @@ html {
 
 #inicio .contenido header .contenido-header nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #3a3b3b;
     margin: 0 12px;
     font-weight: 400;
     transition: .5s;
 }
 
 #inicio .contenido header .contenido-header nav ul a:hover {
-    color: brown;
+    color: #fff;
 }
 
 #inicio .contenido header .contenido-header .redes a {
     text-decoration: none;
-    color: #fff;
+    color: #3a3b3b;
     display: inline-block;
     margin-left: 10px;
     transition: .5s;
 }
 
 #inicio .contenido header .contenido-header .redes a:hover {
-    color: brown;
+    color: #fff;
 }
 #inicio .contenido header .contenido-header .seleccionado{
-    color: #ff5080;
+    color: #3a3b3b;
 }
 
-
-
-
-
-
-
-
 #inicio .contenido .presentacion {
-    max-width: 1100px;
+    max-width: 100%;
     height: 100vh;
     margin: auto;
-    color: #fff;
+    color: #3a3b3b;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #f3f3f3;
+
+    
 }
 
-#inicio .contenido .presentacion .bienvenida {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
 
 #inicio .contenido .presentacion h2 {
     font-size: 55px;
     margin-bottom: 25px;
     text-align: center;
+    letter-spacing: 15px;
+    
 
 }
 
 #inicio .contenido .presentacion h2 span {
-    font-size: 25px;
-    color: brown;
+    font-size: 55px;
+    color: #3a3b3b;
 }
 
 #inicio .contenido .presentacion .descripcion {
@@ -122,16 +114,17 @@ html {
     display: inline;
     margin: 25px;
     padding: 20px 25px;
-    border: 2px solid #fff;
+    border: 2px solid #3a3b3b;
     border-radius: 50px;
-    color: #fff;
+    color: #3a3b3b;
     font-weight: bold;
     text-transform: uppercase;
     transition: .5s;
 }
 
 #inicio .contenido .presentacion a:hover {
-    background-color: brown;
+    background-color: #3a3b3b;
+    color:#fff
 }
 
 #icono-nav {
@@ -154,11 +147,8 @@ html {
     margin-left: 80px;
 }
 
-#sobremi .contenedor-foto img {
-    padding: 20px;
-    width: 100%;
-    border-radius: 20px !important;
-    background-color: #f3f3f3;
+#sobremi .contenedor-foto img {    
+    width: 100%;   
 }
 
 #sobremi .sobremi {
@@ -181,7 +171,7 @@ html {
 }
 
 #sobremi .sobremi h2 span {
-    color: #ff5000;
+    color: #d8d3cd;
 }
 
 #sobremi .sobremi h3 {
@@ -211,8 +201,9 @@ html {
 }
 
 #sobremi .sobremi a:hover {
-    background-color: #ff5080;
-    color: #fff;
+    background-color: #3a3b3b;
+    color:#fff
+
 }
 
 /* EDUCACIÓN*/
@@ -380,15 +371,15 @@ html {
 
 /*FOOTER*/
 footer {
-    background-color: #000;
-    color: #fff;
+    background-color: #f3f3f3;
+    color: #3a3b3b;
     text-align: center;
     padding: 30px 0;
 }
 
 footer a {
     text-decoration: none;
-    color: #fff;
+    color: #3a3b3b;
     display: inline-block;
     margin: 5px;
     font-size: 26px;
