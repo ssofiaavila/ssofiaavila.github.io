@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatble" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>Sofia Avila</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -24,9 +25,9 @@
                         <ul id="links">
                             <li> <a href="#inicio" class="seleccionado" onclick="seleccionar(this)"> INICIO </a></li>
                             <li> <a href="#sobremi" onclick="seleccionar(this)"> SOBRE MI </a></li>
-                            <li> <a href="#educacion" onclick="seleccionar(this)"> EDUCACIÓN </a></li>
+                            <!-- <li> <a href="#educacion" onclick="seleccionar(this)"> EDUCACIÓN </a></li>
                             <li> <a href="#skills" onclick="seleccionar(this)"> SKILLS </a></li>
-                            <li> <a href="#contacto" onclick="seleccionar(this)"> CONTACTO </a></li>
+                            <li> <a href="#contacto" onclick="seleccionar(this)"> CONTACTO </a></li> -->
                         </ul>
                     </nav>
 
@@ -35,7 +36,7 @@
                         <i class="fa-solid fa-bars"></i>
                     </div>
 
-                    <!-- INCONO DE LAS REDES-->
+                    <!-- ICONO DE LAS REDES-->
                     <div class="redes">
                         <a href="https://github.com/ssofiaavila"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/ssofiaavila/"><i class="fa-brands fa-linkedin"></i></i></a>
@@ -47,10 +48,8 @@
             </header>
             <div class="presentacion">
                 <h2> BIENVENIDOS </h2>
-                <p class="descripcion"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse harum officia
-                    laudantium veritatis quae fugit? Sit vero consequatur, nam ex, quam quae, saepe eius mollitia
-                    repudiandae possimus culpa praesentium. Ullam?</p>
-                <a href="#porfolio"> Ir a portfolio</a>
+                <p class="descripcion"> </p>
+                <!--  <a href="#porfolio"> Ir a portfolio</a> -->
             </div>
         </div>
     </section>
@@ -63,58 +62,56 @@
         <div class="sobremi">
             <p class="titulo-seccion"> Sobre mí</p>
             <h2> Soy <span> Sofia Avila</span></h2>
-            <h3> Estudiante</h3>
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptas illum tenetur distinctio
-                assumenda sit voluptate deserunt odit adipisci enim quos eum similique cupiditate asperiores quia ex,
-                quo dolor eaque.</p>
-            <a href="#"> Descargar CV</a>
+            <h3> Estudiante de informática</h3>
+            <p> Alguien autodidacta, comprometida y empática.
+                Actualmente estudiante de tercer año de las carreras Analista Programador Universitario y
+                Licenciatura
+                en Sistemas de la Universidad Nacional de La Plata, en búsqueda de dar mis primeros pasos en mi
+                carrera profesional con el
+                objetivo de aplicar el aprendizaje de estos años académicos y adquirir nuevos conocimientos y
+                tecnologías.</p>
+            <a href="assets\Sofia_Avila_CV.pdf" download="Sofia_Avila_CV"> Descargar CV</a>
         </div>
     </section>
-
-    <!-- EDUCACION-->
+<!--
+    EDUCACION>
     <section id="educacion">
         <h3 class="titulo-seccion"> EDUCACIÓN</h3>
         <div class="fila">
             <div class="titulo">
                 <span class="icono"><i class="fa-solid fa-graduation-cap"></i></i></span>
-                <h4> Trayectoria</h4>
+                <h4> Analista programador universitario </h4>
                 <hr>
                 <ul class="educacion-tag">
-                    <li> Analista programador universitario</li>
+                    <li> UNLP <br> 2020- actualidad</li>
 
                 </ul>
             </div>
             <div class="titulo">
                 <span class="icono"><i class="fa-solid fa-graduation-cap"></i></i></span>
-                <h4> Trayectoria</h4>
+                <h4> Licenciatura en sistemas</h4>
                 <hr>
                 <ul class="educacion-tag">
-                    <li> Analista programador universitario</li>
+                    <li> UNLP <br>
+                        2020- actualidad</li>
 
                 </ul>
             </div>
             <div class="titulo">
                 <span class="icono"><i class="fa-solid fa-graduation-cap"></i></i></span>
-                <h4> Trayectoria</h4>
+                <h4> Capacitación superior en inglés</h4>
                 <hr>
                 <ul class="educacion-tag">
-                    <li> Analista programador universitario</li>
+                    <li> IACI <br> 2009-2019</li>
 
                 </ul>
             </div>
-            <div class="titulo">
-                <span class="icono"><i class="fa-solid fa-graduation-cap"></i></i></span>
-                <h4> Trayectoria</h4>
-                <hr>
-                <ul class="educacion-tag">
-                    <li> Analista programador universitario</li>
-                </ul>
-            </div>
+            
         </div>
 
     </section>
 
-    <!--SKILLS-->
+    SKILLS
     <div class="contenedor-skills" id="skills">
         <h3> SKILLS</h3>
         <div class="skill">
@@ -160,11 +157,11 @@
 
     </div>
 
-    <!-- CONTACTO-->
-    <section id="contacto">
+    CONTACTO--
+        <section id="contacto">
         <h3 class="titulo-seccion">Contactame</h3>
         <div class="contenedor-form">
-            <form action="#">
+            <form action="mailto:avilasofia076@gmail.com" method="post" enctype="text/plain">
                 <div class="fila mitad">
                     <input type="text" placeholder="Nombre" class="input-mitad">
                     <input type="text" placeholder="Mail" class="input-mitad">
@@ -180,13 +177,13 @@
                 <input type="submit" value="Enviar mensaje" class="btn-enviar">
             </form>
         </div>
-
+    -->
 
     </section>
 
     <!-- FOOTER-->
     <footer>
-        <p> Sofia Agostina Avila- 2022</p>
+        <p> Sofia Agostina Avila- 2023</p>
         <div class="redes">
             <a href="https://github.com/ssofiaavila"><i class="fa-brands fa-github"></i></a>
             <a href="https://www.linkedin.com/in/ssofiaavila/"><i class="fa-brands fa-linkedin"></i></i></a>
